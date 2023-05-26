@@ -14,9 +14,12 @@ rolledDF = pd.DataFrame(columns=['Vara', 'Pris', 'Antal', 'Regler'])
 for index, row in storeDF.iterrows():
     if(rng.randrange(100) < row[3]):
         newRow = {'Vara' : row[0], 'Pris' : row[1] + (rng.randint(0, round((row[1]/5) + 0.5)) - round((row[1]/10) + 0.5)), 'Antal' : rng.randrange(row[4]) + 1, 'Regler' : row[2] }
+        #st.write(newRow['Regler'])
         if newRow['Pris'] <= 0:
             newRow['Pris'] = 1
-        if newRow['Regler'] == "UPergRoll":
+        if not pd.notna(newRow['Regler']):
+            newRow['Regler'] = " "
+        elif newRow['Regler'] == "UPergRoll":
             newRow['Regler'] = rng.choice(lis.uPerg)
         elif newRow['Regler'] == "CPergRoll":
             newRow['Regler'] = rng.choice(lis.cPerg)
