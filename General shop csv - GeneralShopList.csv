@@ -1,0 +1,78 @@
+Vara,Pris,Regler,Chans,MaxAntal
+Bräckjärn,8,,30,4
+Dyrbar Parfym,25,,15,10
+Dyrkar,5,,30,30
+Eldstål,4,,65,20
+Fackla,2,,100,15
+Flint,4,,55,15
+Flaska Rött Gift,20,Tålighet mot SG12 eller t10 skada. 3 doser,20,5
+Flaska Svart Gift,20,Tålighet mot SG14 eller t6 skada + blind en timme. 3 doser,20,5
+Förbandslåda,15,Stoppar blödning/infektion och +t6 TP. Närvaro + 4 användningar,20,5
+Fotanglar,7,t4 skada + infektion vid 1 på t6,15,20
+Hammare,8,,75,5
+Handklovar,10,,40,3
+Ister,5,kan funka som 5 måltider,85,20
+Järnspikar,5,10 stycken,85,10
+Krita,1,,90,15
+Silver Krucifix,60,,40,5
+Trä Krucifix,8,,80,15
+Köttyxa,15,,70,5
+Lampolja,5,Närvaro + 6 timmar,100,10
+Liten Vagn,25,,30,1
+Madrass,3,,85,4
+Magnesiumremsa,4,,50,5
+Metallfil,10,,60,5
+Munkorg,6,,40,3
+Oljelampa,10,,100,3
+Ren Pergamentrulle,50,CPergRoll,7,1
+Smutsig Pergamentrulle,100,UPergRoll,2,1
+Rep,4,10 meter,100,5
+Ryggsäck,6,Rymmer 7 normalstora föremål,65,3
+Salt,4,,85,20
+Sax,9,,85,5
+Saxfälla,20,SG14 för att upptäcka. t8 skada,15,5
+Snara,5,,65,5
+Spegel,15,,65,3
+Stege,7,,45,3
+Stor Järnkrok,9,,45,5
+Säck,3,Rymmer 10 normalstora föremål,75,10
+Torkad Mat,1,Räcker en dag,100,15
+Tuggtobak,1,,80,10
+Tung Kätting,10,5 meter,65,3
+Tält,12,,100,3
+Vass nål,3,,85,15
+Vattenskinn,4,inkl. 4 dygns vatten,100,10
+Verktygslåda,20,inkl. 10 spikar Hammare Liten såg Tång,40,2
+Välbevarat lik,66,,5,5
+Änterhake,12,,50,5
+Mjöd,2,,85,15
+Hund (tränad),25,,10,1
+Hund (vild),10,,20,2
+Häst,80,,30,1
+Råtta (tam),8,1 TP. Bett t2. Lyder bara dig,15,3
+Åsna,10,,20,2
+Laga Rustning (nivå 1 till 2),25,,55,1
+Laga Rustning (nivå 2 till 3),40,,45,1
+Armborst,40,t8,30,2
+Handyxa,15,t6,20,3
+Hjälmkrossare,30,t6,10,2
+Klubba,10,t6,10,3
+Kniv,10,t4,95,5
+Kortbåge,13,t4,45,3
+Kortsvärd,20,t4,20,5
+Pilbåge,25,t6,20,3
+Piska,5,t2,50,3
+Slunga,8,t4,35,10
+Spikklubba,25,t6,15,4
+Stav,5,t4,60,15
+Spjut,15,t6,30,5
+Stridsgissel,35,t8,5,2
+Stridsyxa,35,t8,5,2
+Svärd,30,t6,10,4
+Zweihänder,60,t10,3,2
+Pilar,10,20 stycken,65,10
+Skäktor,10,10 stycken,65,10
+Lätt Rustning,20,LightRoll,60,3
+Medeltung Rustning,100,MedRoll,30,2
+Tung Rustning,200,HeavyRoll,15,1
+Sköld,20,-1 skada. Det går att ignorera all skada från en attack och istället förstöra skölden,50,5
