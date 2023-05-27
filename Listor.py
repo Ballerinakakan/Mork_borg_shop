@@ -81,3 +81,62 @@ feats = {
     '65' : ['Skinner', 'Your skin crawls and itches constantly. Constantly scabbing and foul. The skin of others brings you momentary solace. \n \n • You may wear the skin of a creature you recently killed to disguise yourself. You look, sound and even smell like them. \n \n • The skin decays after d4 hours and you revert back to your normal, wretched form.'],
     '66' : ['Vile Blood', 'Something about your blood is wrong. It’s more akin to the putrid ichor of a corpse. \n \n • Whenever a creature attacks you with a biting attack and hurts you it is poisoned. It suffers d4 damage for d6 rounds. \n \n • Additionally should you suffer an infection roll a d2. On a 2 you do not have infection.'],
 }
+
+firstRollList = [
+    "",
+    "",
+    "en ryggsäck, rymmer 7 normalstora föremål och ",
+    "en säck, rymmer 10 normalstora föremål och ",
+    "en liten vagn, eller valfritt föremål ovan och ",
+    "en åsna, inte så dumt, eller valfritt föremål ovan och "
+]
+
+seccondRollList = [
+    "10 meter rep",
+    "facklor (Närvaro + 4 stycken)",
+    "en oljelampa (med olja för Närvaro + 6 timmar)",
+    "en magnesiumremsa",
+    "en slumpad smutsig pergamentrulle",
+    "en vass nål",
+    "en förbandslåda (Närvaro + 4 användningar, stoppar blörningar/infektioner och läker t6 TP)",
+    "en metallfil + dyrkar",
+    "en saxfälla (Närvaro mot SG14 för att upptäcka, t8 skada)",
+    "en bomb (försluten vätska som kastas, t10 skada)",
+    "en flaska rött gift, " + str(rng.randrange(4) + 1) + " doser (Tålighet mot SG12 eller t10 skada)",
+    "ett krucifix i silver"
+]
+
+thirdRollList = [
+    "ett livselixir, " + str(rng.randrange(4) + 1) + " doser (läker t6 TP och häver infektion)",
+    "en slumpad ren pergamentrulle",
+    "en loppäten hund (" + str(rng.randrange(6) + 3) + " TP, bett t4, lyder bara dig)",
+    str(rng.randrange(4) + 1) + " apor som ignorerar men älskar dig (" + str(rng.randrange(4) + 3) + " TP, slag/bett t4)",
+    "en dyrbar parfym värd 25s",
+    "en verktygslåda (10 spikar, tång, hammare, liten såg och en borr)",
+    "5 meter tung kätting",
+    "en änterhake",
+    "en sköld (-1 TP skada alternativt ignorera all skada och förstör skölden)",
+    "ett bräckjärn (t4 skada om det används som vapen)",
+    "ister (kan funka som 5 måltider)",
+    "ett tält"
+]
+
+weaponList = [
+    "ett lårben, t4 skada",
+    "en stav, t4 skada",
+    "ett kortsvärd, t4 skada",
+    "en kniv, t4 skada",
+    "en hjälmkrossare, t6 skada",
+    "ett svärd, t6 skada",
+    "en pilbåge, t6 skada, med Närvaro + 10 pilar",
+    "en stridsgissel, t8 skada",
+    "en armborst, t8 skada, med Närvaro + 10 skäftor",
+    "EINEN ZWEIHÄNDER, T10 SKADA"
+]
+
+armourList = [
+    "ett rejält övermod då du inte använder någon rustning",
+    "lätt rustning, -t2 skada, nivå 1",
+    "medeltung rustning, -t4 skada, nivå 2",
+    "tung rustning, -t6 skada, nivå 3"
+]
