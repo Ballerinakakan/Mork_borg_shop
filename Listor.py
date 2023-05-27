@@ -1,3 +1,5 @@
+import random as rng
+
 uPerg = [
     "Portarna söderut står vidöppna i din hand",
     "Ingenting är enkelt",
